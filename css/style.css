@@ -1,0 +1,30 @@
+
+<!--roboto font-->
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html.body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#navbar{
+    display: flex; 
+    justify-content: space-between;
+    background-color: rgb(137, 137, 148);
+    padding: 1rem;
+    align-items: center;
+}
+
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    padding: 0 .5rem;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#navbar ul i:hover{
+    background-color: rgb(38, 199, 38);
+}
